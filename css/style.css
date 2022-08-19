@@ -1,0 +1,39 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav{
+    background-color: #404040;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none; /*con esto quitamos las viñetas*/
+
+}
+
+.nav-links li {
+    margin-right: 10px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none; /*esto es para quitar el subrayado de un texto*/
+
+}
+
+.btn {
+    background-color: lightskyblue;
+    border: 2px solid black ;
+    -webkit-box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+-moz-box-shadow:    2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+box-shadow:         2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+padding: 10px 5px;
+
+}
